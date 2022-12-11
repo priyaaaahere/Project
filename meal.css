@@ -1,0 +1,84 @@
+.menu img{border-style: solid;
+    border-color:white;
+    border-radius:20px;
+    margin-left:60px;
+    margin-top:10px;
+    
+
+}
+body{font-family: Arial, Helvetica, sans-serif;
+    background-image:url("bg2.jpg");
+    background-repeat: no-repeat;
+    background-size:100%;
+}
+
+.navigation table{
+  margin-top: 20px;
+  width:100%;
+  border-radius:15px;
+  border-color: none;
+  border-style:groove;
+  background-color: rgba(28, 28, 28,0.5);
+  
+  }
+  
+  th{
+      color: aliceblue;
+  }
+  
+  a {
+      color: aliceblue;
+      text-decoration: none;
+  }
+  
+  .navigation th{ 
+  
+      text-align:center;
+      padding: 10px;
+      margin: auto;
+      font-family:Arial, Helvetica, sans-serif;
+      border-radius: 10px;
+  }
+  th:hover{
+      background-color: rgb(28, 28, 28);
+      border-radius:15px;
+     
+  }
+
+input.c1 {
+            width: 17px;
+            height: 17px;
+}
+#checkout, #continue{
+  background-color: rgb(28, 28, 28);
+  color: white;
+  padding: 14px 20px;
+  margin-top: 8px;
+  margin-left: 80px;
+  border: none;
+  width: 40%;
+  border-radius: 10px;
+}
+
+#checkout:hover, #continue:hover {
+    background-color:  #545252;
+    opacity: 0.8;
+}
+a{
+text-decoration:none;
+color:white;}
+
+#cancel{
+    background-color: red;
+    color: white;
+    padding: 14px 20px;
+    margin-top: 8px;
+    margin-left: 62px;
+    border: none;
+    width: 90%;
+    border-radius: 10px;
+  }
+  #cancel:hover{
+    background-color:  rgb(229, 98, 98);
+      opacity: 0.8;
+      text-decoration: none;

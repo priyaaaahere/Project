@@ -1,0 +1,85 @@
+body{
+    background-image:url(bg2.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+
+}
+
+.navigation table{
+margin-top: 20px;
+width:100%;
+border-radius:15px;
+border-color: none;
+border-style:groove;
+background-color: rgba(28, 28, 28,0.5);
+
+}
+
+th{
+    color: aliceblue;
+}
+
+a {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.navigation th{ 
+
+    text-align:center;
+    padding: 10px;
+    margin: auto;
+    font-family:Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+}
+th:hover{
+    background-color: rgb(28, 28, 28);
+    border-radius:15px;
+   
+}
+h2{ background-color: rgba(255, 255, 224, 0.8);
+    color:black;
+    border: 2px solid none;
+    border-radius: 10px;
+    text-decoration:underline;
+    text-decoration-color: black;
+    margin: 0px 620px;
+}
+
+.latest img{
+    border-radius: 20px;
+    margin-left: 35px;
+    margin-top: 10px;
+}
+.latest img:hover {
+    filter: drop-shadow(4px 4px 6px rgb(0, 0, 0));
+   
+}
+
+.generes img{border-style: solid;
+    border-color:white;
+    border-radius: 20px;
+    margin-left: 35px;
+    margin-top: 10px;
+}
+.generes img:hover {
+    filter: drop-shadow(4px 4px 6px rgb(0, 0, 0));
+   
+}
+    
+.footer{
+    background-image: url(footerimg.jpg);
+}
+.footer img{
+    margin-left: 120px;
+    margin-top: 10px;
+}
+.footer img:hover {
+    filter: drop-shadow(4px 4px 6px rgb(0, 0, 0));
+   
+}
+.footer{
+    background-color: #545252;
+}
+
+

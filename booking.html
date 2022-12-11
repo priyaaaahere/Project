@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="booking.css">
+    <title>Booking Page</title>
+</head>
+<body>
+    <h1>Book Your Show!</h1>
+
+                <!--NAV BAR-->
+  <div class="navigation">
+    <table>
+      <th><a href="homepg.html" >Home</a></th>
+      <th><a href="booking.html" target="_blank">Book A Show</a></th>
+      <th><a href="meals1.html" target="_self">Snacks</a></th>
+      <th><a href="loginpg.html" target="_self">Log Out</a></th>
+    </table>
+  </div>
+
+    <div class="container">
+        <form action="" method="get">
+      
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="First Name">
+      
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname"  placeholder="Last Name">
+
+                 <!--MOVIE SELECTION-->
+          <label for="drop">Select Movie</label>
+          <select id="drop" name="movie_drop">  
+                    <option value="movie">Select Your Movie</option>
+
+                    <option value="Black Panther">Black Panther</option>
+                    <option value="Black Adam">Black Adam</option>
+                    <option value="Ram Setu">Ram Setu</option>
+                    <option value="Drishyam 2">Drishyam 2</option>
+                    <option value="Thank God">Thank God</option>
+                    <option value="Phone Booth">Phone Booth</option>
+          </select>
+                    <!--TIME SELECTION-->
+          <label for="drop">Select Timings</label>
+          <select id="drop" name="time_drop">  
+                    <option value="time">Select Show Timings</option>
+
+                    <option value="9to12">9:00 AM to 12:00 PM</option>
+                    <option value="13t16">1:00 PM to 4:00 PM</option>
+                    <option value="17t020">5:00 PM to 8:00 PM</option>
+                    <option value="21to24">9:00 PM to 12:00 AM</option>
+          </select>
+
+                    <!--SEAT SELECTION-->
+          <label for="drop">Select Seat</label>
+          <select id="drop" name="seat_drop">  
+            <option value="seat">Select Your Seat</option>
+
+                    <option value="normal">Normal</option>
+                    <option value="luxury">Luxury</option>
+                    <option value="private">Private</option>
+                    <option value="executive">Executive</option>
+          </select>
+
+                   <!--CITY SELECTION-->
+          <label for="drop">Select City</label>
+          <select id="drop" name="city_drop">  
+            <option value="city">Select Your City</option>
+
+                    <option value="bn">Bengaluru</option>
+                    <option value="mb">Mumbai</option>
+                    <option value="dl">Delhi</option>
+                    <option value="hy">Hyderabad</option>
+                    <option value="jh">Jalandhar</option>
+                    <option value="kc">Kochi</option>
+                    <option value="ch">Chennai</option>
+                    <option value="am">Amritsar</option>
+                    <option value="cd">Chandigarh</option>
+                    <option value="jm">Jammu</option>
+                    <option value="al">Aligarh</option>
+                    <option value="dh">Dehradun</option>
+                    <option value="lk">Lucknow</option>
+                    <option value="jp">Jaipur</option>
+                    <option value="kl">Kolkata</option>
+          </select>
+
+
+
+          <button id="submit" ><a href="payment.html">PROCEED TO PAYMENT</a></button>
+
+          <button id="cancel" ><a href="homepg.html">CANCEL</a></button>
+</body>
+</html>

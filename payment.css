@@ -1,0 +1,162 @@
+* {
+    box-sizing: border-box;
+}
+
+body {font-family: Arial, Helvetica, sans-serif;
+    background-image:url(bg2.jpg);
+    background-repeat: no-repeat;
+    height: 100%;
+    background-size: 100%;
+  }
+body,
+html {
+    height: 100%;
+}
+ 
+body {
+    font-family: 'Roboto',sans-serif;
+    margin: 0;
+    background-color: #e7e7e7;
+}
+
+.form-header {
+    height: 60px;
+    padding: 20px 30px 0;
+    border-bottom: 1px solid #e1e8ee;
+}
+.card {
+    width: 360px;
+    height: 600px;
+    margin: 60px auto 0;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+.form-body {
+    height: 340px;
+    padding: 30px 30px 20px;
+}
+.title {
+    font-size: 18px;
+    margin: 0;
+    color: #5e6977;
+}
+
+.card-number,
+.card-name,
+.cvv-input input,
+.month select,
+.year select {
+    font-size: 14px;
+    font-weight: 100;
+    /*line-height: 14px;*/
+    height: 50px;
+    border-radius: 10px;
+}
+ 
+.card-number,
+.card-name,
+.month select,
+.year select {
+    font-size: 14px;
+    font-weight: 100;
+    line-height: 14px;
+}
+ 
+.card-number,
+.card-name,
+.cvv-details,
+.cvv-input input,
+.month select,
+.year select {
+    opacity: .9;
+    color: black;
+}
+.card-number, 
+.card-name {
+    width: 100%;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    border: 2px solid #e1e8ee;
+    border-radius: 6px;
+}
+
+.month select
+.year select {
+    width: 145px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    border: 2px solid #e1e8ee;
+    border-radius: 1px;
+    
+}
+ 
+.month select {
+    float: left;
+}
+ 
+.year select {
+    float: left;
+}
+
+.cvv-input input[type=password] {
+    float: left;
+    width: 145px;
+    padding-left: 0px;
+    border: 2px solid #e1e8ee;
+    border-radius: 6px;
+    background: #fff;
+}
+ 
+.cvv-details {
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 16px;
+    float: right;
+    margin-bottom: 20px;
+    margin-top: 6px;
+}
+ 
+.upi-details {
+    
+    font-size: 215x;
+    font-weight: 300;
+    line-height: 16px;
+    float: right;
+}
+/*for pay button*/
+
+#pay{
+    background-color: rgb(28, 28, 28);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    width: 100%;
+    border-radius: 10px
+}
+
+#pay:hover {
+        background-color:  #545252;
+        opacity: 0.8;
+    }
+
+/*for cancel button*/
+#cancel{
+    background-color: red;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    width: 100%;
+    border-radius: 10px;
+  }
+  #cancel:hover{
+    background-color:  rgb(229, 98, 98);
+      opacity: 0.8;
+      text-decoration: none;
+  }
+  a{
+    text-decoration: none;
+    color: aliceblue;
+  }
